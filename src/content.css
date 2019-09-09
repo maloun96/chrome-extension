@@ -1,0 +1,17 @@
+/* src/content.css */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+.my-extension{
+    padding: 20px;
+}
+
+.my-extension h1{
+    color: #000;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: black;
+    cursor: pointer;
+}

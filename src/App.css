@@ -1,0 +1,44 @@
+
+.App-logo {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.image {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image:first-child {
+  border: 0;
+}
+
+.image img {
+  max-height: 100px;
+}
+
+.image span {
+  cursor: pointer;
+}
+.image span:hover {
+  text-decoration: underline;
+}
